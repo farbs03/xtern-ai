@@ -2,6 +2,9 @@
 
 (25%)  Given the data set, do a quick exploratory data analysis to get a feel for the distributions and biases of the data.  Report any visualizations and findings used and suggest any other impactful business use cases for that data.
 
+This data is has extremely skewed distributions of values. To get an idea of how this data is layed out, I computed the counts of each unique value in each column, and made a bar graph representing this (one per column). For the "Year" column, there are almost no entries that contain "Year 1" or "Year 4". For the rest, they seem to follow an exponential growth curve. The graphs are saved in the "graphs" folder.
+Other impactful business use cases that can be derived from this data, apart from predicting what order a student will have based on their data, this dataset can be used to find the times that students order food the most frequently (perahps on a per-campus basis), and which items are ordered the most. If the business had these insights, they would know the ideal timeframe to set up a food truck on a given campus, and which food resources they should have more/less of.
+
 (30%) Consider implications of data collection, storage, and data biases you would consider relevant here considering Data Ethics, Business Outcomes, and Technical Implications
 
 1. Discuss Ethical implications of these factors
